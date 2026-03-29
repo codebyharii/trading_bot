@@ -1,0 +1,1105 @@
+2026-03-29T11:36:36 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:36:37 | INFO     | watchfiles.main | 4 changes detected
+2026-03-29T11:36:37 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:36:37 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:36:38 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:36:38 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:36:39 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:36:39 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:36:39 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:36:40 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:36:40 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:36:40 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:36:41 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:36:41 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:36:42 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:36:42 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:36:42 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:36:43 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:36:43 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:36:44 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:36:44 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:36:44 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:36:45 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:36:45 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:36:46 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:36:46 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:36:46 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:36:47 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:36:47 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:38:32 | INFO     | bot.client | -> GET /fapi/v1/ticker/price  params={'symbol': 'BTCUSDT'}
+2026-03-29T11:38:32 | INFO     | bot.client | <- HTTP 200  body={"symbol":"BTCUSDT","price":"66814.90","time":1774764509258}
+2026-03-29T11:38:32 | INFO     | bot.client | -> GET /fapi/v2/account  params={'timestamp': 1774764512792}
+2026-03-29T11:38:32 | INFO     | bot.client | <- HTTP 401  body={"code":-2015,"msg":"Invalid API-key, IP, or permissions for action"}
+2026-03-29T11:38:40 | INFO     | api | Binance client initialised.
+2026-03-29T11:38:46 | INFO     | bot.client | -> GET /fapi/v1/ticker/price  params={'symbol': 'BTCUSDT'}
+2026-03-29T11:38:46 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:38:46 | INFO     | bot.client | <- HTTP 200  body={"symbol":"BTCUSDT","price":"66813.20","time":1774764521322}
+2026-03-29T11:38:46 | INFO     | bot.client | -> GET /fapi/v1/ticker/price  params={'symbol': 'BTCUSDT'}
+2026-03-29T11:38:47 | INFO     | bot.client | <- HTTP 200  body={"symbol":"BTCUSDT","price":"66825.30","time":1774764522275}
+2026-03-29T11:38:47 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:38:47 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:38:47 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:38:48 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:38:48 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:38:49 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:38:49 | INFO     | bot.client | -> GET /fapi/v1/ticker/price  params={'symbol': 'BTCUSDT'}
+2026-03-29T11:38:49 | INFO     | bot.client | <- HTTP 200  body={"symbol":"BTCUSDT","price":"66825.30","time":1774764524642}
+2026-03-29T11:38:49 | INFO     | bot.client | -> GET /fapi/v1/ticker/price  params={'symbol': 'BTCUSDT'}
+2026-03-29T11:38:49 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:38:49 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:38:49 | INFO     | bot.client | <- HTTP 200  body={"symbol":"BTCUSDT","price":"66825.30","time":1774764522275}
+2026-03-29T11:38:50 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:38:50 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:38:50 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:38:51 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:38:51 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:38:52 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:38:52 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:38:52 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:38:52 | INFO     | api | POST /api/orders  body={'symbol': 'BTCUSDT', 'side': 'BUY', 'order_type': 'MARKET', 'quantity': 1.0, 'price': None, 'stop_price': None, 'time_in_force': 'GTC', 'reduce_only': False}
+2026-03-29T11:38:52 | INFO     | bot.orders | Placing MARKET BUY BTCUSDT  qty=1.0  price=None
+2026-03-29T11:38:52 | INFO     | bot.client | -> POST /fapi/v1/order  params={'symbol': 'BTCUSDT', 'side': 'BUY', 'type': 'MARKET', 'quantity': '1.0', 'timestamp': 1774764532829}
+2026-03-29T11:38:52 | INFO     | bot.client | <- HTTP 401  body={"code":-2015,"msg":"Invalid API-key, IP, or permissions for action"}
+2026-03-29T11:38:52 | ERROR    | api | Binance API error: Binance API Error [-2015]: Invalid API-key, IP, or permissions for action
+2026-03-29T11:38:53 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:38:53 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:38:53 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:38:54 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:38:54 | INFO     | api | POST /api/orders  body={'symbol': 'BTCUSDT', 'side': 'BUY', 'order_type': 'MARKET', 'quantity': 1.0, 'price': None, 'stop_price': None, 'time_in_force': 'GTC', 'reduce_only': False}
+2026-03-29T11:38:54 | INFO     | bot.orders | Placing MARKET BUY BTCUSDT  qty=1.0  price=None
+2026-03-29T11:38:54 | INFO     | bot.client | -> POST /fapi/v1/order  params={'symbol': 'BTCUSDT', 'side': 'BUY', 'type': 'MARKET', 'quantity': '1.0', 'timestamp': 1774764534377}
+2026-03-29T11:38:54 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:38:54 | INFO     | bot.client | <- HTTP 401  body={"code":-2015,"msg":"Invalid API-key, IP, or permissions for action"}
+2026-03-29T11:38:54 | ERROR    | api | Binance API error: Binance API Error [-2015]: Invalid API-key, IP, or permissions for action
+2026-03-29T11:38:54 | INFO     | api | POST /api/orders  body={'symbol': 'BTCUSDT', 'side': 'BUY', 'order_type': 'MARKET', 'quantity': 1.0, 'price': None, 'stop_price': None, 'time_in_force': 'GTC', 'reduce_only': False}
+2026-03-29T11:38:54 | INFO     | bot.orders | Placing MARKET BUY BTCUSDT  qty=1.0  price=None
+2026-03-29T11:38:54 | INFO     | bot.client | -> POST /fapi/v1/order  params={'symbol': 'BTCUSDT', 'side': 'BUY', 'type': 'MARKET', 'quantity': '1.0', 'timestamp': 1774764534830}
+2026-03-29T11:38:54 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:38:55 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:38:55 | INFO     | bot.client | <- HTTP 401  body={"code":-2015,"msg":"Invalid API-key, IP, or permissions for action"}
+2026-03-29T11:38:55 | ERROR    | api | Binance API error: Binance API Error [-2015]: Invalid API-key, IP, or permissions for action
+2026-03-29T11:38:55 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:38:55 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:38:56 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:38:56 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:38:57 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:38:57 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:38:57 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:38:58 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:38:58 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:38:58 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:38:59 | INFO     | bot.client | -> GET /fapi/v1/ticker/price  params={'symbol': 'BTCUSDT'}
+2026-03-29T11:38:59 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:38:59 | INFO     | api | POST /api/orders  body={'symbol': 'BTCUSDT', 'side': 'BUY', 'order_type': 'MARKET', 'quantity': 1.0, 'price': None, 'stop_price': None, 'time_in_force': 'GTC', 'reduce_only': False}
+2026-03-29T11:38:59 | INFO     | bot.orders | Placing MARKET BUY BTCUSDT  qty=1.0  price=None
+2026-03-29T11:38:59 | INFO     | bot.client | -> POST /fapi/v1/order  params={'symbol': 'BTCUSDT', 'side': 'BUY', 'type': 'MARKET', 'quantity': '1.0', 'timestamp': 1774764539390}
+2026-03-29T11:38:59 | INFO     | bot.client | <- HTTP 200  body={"symbol":"BTCUSDT","price":"66825.20","time":1774764535245}
+2026-03-29T11:38:59 | INFO     | bot.client | <- HTTP 401  body={"code":-2015,"msg":"Invalid API-key, IP, or permissions for action"}
+2026-03-29T11:38:59 | ERROR    | api | Binance API error: Binance API Error [-2015]: Invalid API-key, IP, or permissions for action
+2026-03-29T11:38:59 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:39:00 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:39:00 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:39:00 | INFO     | api | POST /api/orders  body={'symbol': 'BTCUSDT', 'side': 'BUY', 'order_type': 'MARKET', 'quantity': 1.0, 'price': None, 'stop_price': None, 'time_in_force': 'GTC', 'reduce_only': False}
+2026-03-29T11:39:00 | INFO     | bot.orders | Placing MARKET BUY BTCUSDT  qty=1.0  price=None
+2026-03-29T11:39:00 | INFO     | bot.client | -> POST /fapi/v1/order  params={'symbol': 'BTCUSDT', 'side': 'BUY', 'type': 'MARKET', 'quantity': '1.0', 'timestamp': 1774764540713}
+2026-03-29T11:39:00 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:39:00 | INFO     | bot.client | <- HTTP 401  body={"code":-2015,"msg":"Invalid API-key, IP, or permissions for action"}
+2026-03-29T11:39:00 | ERROR    | api | Binance API error: Binance API Error [-2015]: Invalid API-key, IP, or permissions for action
+2026-03-29T11:39:01 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:39:02 | INFO     | api | POST /api/orders  body={'symbol': 'BTCUSDT', 'side': 'BUY', 'order_type': 'MARKET', 'quantity': 1.0, 'price': None, 'stop_price': None, 'time_in_force': 'GTC', 'reduce_only': False}
+2026-03-29T11:39:02 | INFO     | bot.orders | Placing MARKET BUY BTCUSDT  qty=1.0  price=None
+2026-03-29T11:39:02 | INFO     | bot.client | -> POST /fapi/v1/order  params={'symbol': 'BTCUSDT', 'side': 'BUY', 'type': 'MARKET', 'quantity': '1.0', 'timestamp': 1774764542405}
+2026-03-29T11:39:02 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:39:02 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:39:02 | INFO     | bot.client | <- HTTP 401  body={"code":-2015,"msg":"Invalid API-key, IP, or permissions for action"}
+2026-03-29T11:39:02 | ERROR    | api | Binance API error: Binance API Error [-2015]: Invalid API-key, IP, or permissions for action
+2026-03-29T11:39:03 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:39:03 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:39:03 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:39:04 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:39:04 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:39:04 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:39:05 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:39:05 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:39:06 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:39:06 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:39:06 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:39:07 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:39:07 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:39:08 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:39:08 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:39:08 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:39:09 | INFO     | bot.client | -> GET /fapi/v1/ticker/price  params={'symbol': 'BTCUSDT'}
+2026-03-29T11:39:09 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:39:09 | INFO     | bot.client | <- HTTP 200  body={"symbol":"BTCUSDT","price":"66825.20","time":1774764545013}
+2026-03-29T11:39:09 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:39:10 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:39:10 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:39:10 | INFO     | api | Binance client closed.
+2026-03-29T11:39:46 | INFO     | bot.client | -> GET /fapi/v1/ticker/price  params={'symbol': 'BTCUSDT'}
+2026-03-29T11:39:47 | INFO     | bot.client | <- HTTP 200  body={"symbol":"BTCUSDT","price":"66825.20","time":1774764585395}
+2026-03-29T11:39:47 | INFO     | bot.client | -> GET /fapi/v2/account  params={'timestamp': 1774764587081}
+2026-03-29T11:39:47 | INFO     | bot.client | <- HTTP 401  body={"code":-2015,"msg":"Invalid API-key, IP, or permissions for action"}
+2026-03-29T11:40:35 | INFO     | api | Binance client initialised.
+2026-03-29T11:40:39 | INFO     | bot.client | -> GET /fapi/v1/ticker/price  params={'symbol': 'BTCUSDT'}
+2026-03-29T11:40:39 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:40:39 | INFO     | bot.client | <- HTTP 200  body={"symbol":"BTCUSDT","price":"66813.00","time":1774764635221}
+2026-03-29T11:40:39 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:40:40 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:40:40 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:40:40 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:40:41 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:40:41 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:40:42 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:40:42 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:40:42 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:40:43 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:40:43 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:40:44 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:40:44 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:40:44 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:40:45 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:40:45 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:40:46 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:40:46 | INFO     | bot.client | -> GET /fapi/v1/ticker/price  params={'symbol': 'BTCUSDT'}
+2026-03-29T11:40:46 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:40:46 | INFO     | bot.client | <- HTTP 200  body={"symbol":"BTCUSDT","price":"66797.60","time":1774764643323}
+2026-03-29T11:40:46 | INFO     | bot.client | -> GET /fapi/v1/ticker/price  params={'symbol': 'BTCUSDT'}
+2026-03-29T11:40:46 | INFO     | bot.client | <- HTTP 200  body={"symbol":"BTCUSDT","price":"66797.60","time":1774764641278}
+2026-03-29T11:40:46 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:40:47 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:40:47 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:40:47 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:40:48 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:40:48 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:40:48 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:40:49 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:40:49 | INFO     | bot.client | -> GET /fapi/v1/ticker/price  params={'symbol': 'BTCUSDT'}
+2026-03-29T11:40:49 | INFO     | bot.client | <- HTTP 200  body={"symbol":"BTCUSDT","price":"66797.60","time":1774764645551}
+2026-03-29T11:40:49 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:40:50 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:40:50 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:40:50 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:40:51 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:40:51 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:40:51 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:40:52 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:40:52 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:40:52 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:40:53 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:40:53 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:40:54 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:40:54 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:40:54 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:40:55 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:40:55 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:40:56 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:40:56 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:40:56 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:40:57 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:40:57 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:40:58 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:40:58 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:40:58 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:40:59 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:40:59 | INFO     | bot.client | -> GET /fapi/v1/ticker/price  params={'symbol': 'BTCUSDT'}
+2026-03-29T11:40:59 | INFO     | bot.client | <- HTTP 200  body={"symbol":"BTCUSDT","price":"66797.80","time":1774764655435}
+2026-03-29T11:40:59 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:41:00 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:41:00 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:41:00 | INFO     | bot.client | -> GET /fapi/v1/ticker/price  params={'symbol': 'BTCUSDT'}
+2026-03-29T11:41:00 | INFO     | bot.client | -> GET /fapi/v1/ticker/price  params={'symbol': 'BTCUSDT'}
+2026-03-29T11:41:00 | INFO     | bot.client | <- HTTP 200  body={"symbol":"BTCUSDT","price":"66797.80","time":1774764653320}
+2026-03-29T11:41:00 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:41:00 | INFO     | bot.client | <- HTTP 200  body={"symbol":"BTCUSDT","price":"66797.80","time":1774764653320}
+2026-03-29T11:41:00 | INFO     | bot.client | -> GET /fapi/v1/ticker/price  params={'symbol': 'BTCUSDT'}
+2026-03-29T11:41:01 | INFO     | bot.client | <- HTTP 200  body={"symbol":"BTCUSDT","price":"66797.80","time":1774764655435}
+2026-03-29T11:41:01 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:41:01 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:41:01 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:41:02 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:41:02 | INFO     | bot.client | -> GET /fapi/v1/ticker/price  params={'symbol': 'BTCUSDT'}
+2026-03-29T11:41:02 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:41:02 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:41:03 | INFO     | bot.client | <- HTTP 200  body={"symbol":"BTCUSDT","price":"66797.60","time":1774764659095}
+2026-03-29T11:41:03 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:41:03 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:41:04 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:41:04 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:41:04 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:41:05 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:41:05 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:41:05 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:41:06 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:41:06 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:41:07 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:41:07 | INFO     | api | POST /api/orders  body={'symbol': 'BTCUSDT', 'side': 'BUY', 'order_type': 'MARKET', 'quantity': 1.0, 'price': None, 'stop_price': None, 'time_in_force': 'GTC', 'reduce_only': False}
+2026-03-29T11:41:07 | INFO     | bot.orders | Placing MARKET BUY BTCUSDT  qty=1.0  price=None
+2026-03-29T11:41:07 | INFO     | bot.client | -> POST /fapi/v1/order  params={'symbol': 'BTCUSDT', 'side': 'BUY', 'type': 'MARKET', 'quantity': '1.0', 'timestamp': 1774764667460}
+2026-03-29T11:41:07 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:41:07 | INFO     | bot.client | <- HTTP 401  body={"code":-2015,"msg":"Invalid API-key, IP, or permissions for action"}
+2026-03-29T11:41:07 | ERROR    | api | Binance API error: Binance API Error [-2015]: Invalid API-key, IP, or permissions for action
+2026-03-29T11:41:07 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:41:08 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:41:08 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:41:08 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:41:09 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:41:09 | INFO     | bot.client | -> GET /fapi/v1/ticker/price  params={'symbol': 'BTCUSDT'}
+2026-03-29T11:41:09 | INFO     | bot.client | <- HTTP 200  body={"symbol":"BTCUSDT","price":"66797.60","time":1774764663037}
+2026-03-29T11:41:09 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:41:10 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:41:10 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:41:10 | INFO     | bot.client | -> GET /fapi/v1/ticker/price  params={'symbol': 'BTCUSDT'}
+2026-03-29T11:41:10 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:41:11 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:41:11 | INFO     | bot.client | <- HTTP 200  body={"symbol":"BTCUSDT","price":"66797.60","time":1774764669114}
+2026-03-29T11:41:11 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:41:11 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:41:12 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:41:12 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:41:12 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:41:13 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:41:13 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:41:14 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:41:14 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:41:14 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:41:15 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:41:15 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:41:16 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:41:16 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:41:16 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:41:17 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:41:17 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:41:18 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:41:18 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:41:18 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:41:19 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:41:19 | INFO     | bot.client | -> GET /fapi/v1/ticker/price  params={'symbol': 'BTCUSDT'}
+2026-03-29T11:41:19 | INFO     | bot.client | <- HTTP 200  body={"symbol":"BTCUSDT","price":"66797.20","time":1774764675394}
+2026-03-29T11:41:19 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:41:20 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:41:20 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:41:20 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:41:21 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:41:21 | INFO     | bot.client | -> GET /fapi/v1/ticker/price  params={'symbol': 'BTCUSDT'}
+2026-03-29T11:41:21 | INFO     | bot.client | <- HTTP 200  body={"symbol":"BTCUSDT","price":"66797.20","time":1774764675394}
+2026-03-29T11:41:21 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:41:21 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:41:22 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:41:22 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:41:23 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:41:23 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:41:24 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:41:24 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:41:24 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:41:25 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:41:25 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:41:26 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:41:26 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:41:26 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:41:27 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:41:27 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:41:28 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:41:28 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:41:28 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:41:29 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:41:29 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:41:29 | INFO     | bot.client | -> GET /fapi/v1/ticker/price  params={'symbol': 'BTCUSDT'}
+2026-03-29T11:41:29 | INFO     | bot.client | <- HTTP 200  body={"symbol":"BTCUSDT","price":"66793.20","time":1774764683010}
+2026-03-29T11:41:30 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:41:30 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:41:30 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:41:31 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:41:31 | INFO     | bot.client | -> GET /fapi/v1/ticker/price  params={'symbol': 'BTCUSDT'}
+2026-03-29T11:41:31 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:41:31 | INFO     | bot.client | <- HTTP 200  body={"symbol":"BTCUSDT","price":"66797.70","time":1774764689651}
+2026-03-29T11:41:31 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:41:32 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:41:32 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:41:32 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:41:33 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:41:33 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:41:33 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:41:34 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:41:34 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:41:35 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:41:35 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:41:35 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:41:36 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:41:36 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:41:37 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:41:37 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:41:37 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:41:38 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:41:38 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:41:39 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:41:39 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:41:39 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:41:40 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:41:40 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:41:41 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:41:41 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:41:41 | INFO     | bot.client | -> GET /fapi/v1/ticker/price  params={'symbol': 'BTCUSDT'}
+2026-03-29T11:41:41 | INFO     | bot.client | <- HTTP 200  body={"symbol":"BTCUSDT","price":"66797.80","time":1774764698680}
+2026-03-29T11:41:41 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:41:42 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:41:42 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:41:42 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:41:43 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:41:43 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:41:44 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:41:44 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:41:44 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:41:45 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:41:45 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:41:46 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:41:46 | INFO     | bot.client | -> GET /fapi/v1/ticker/price  params={'symbol': 'BTCUSDT'}
+2026-03-29T11:41:46 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:41:46 | INFO     | bot.client | <- HTTP 200  body={"symbol":"BTCUSDT","price":"66797.80","time":1774764701558}
+2026-03-29T11:41:46 | INFO     | bot.client | -> GET /fapi/v1/ticker/price  params={'symbol': 'BTCUSDT'}
+2026-03-29T11:41:46 | INFO     | bot.client | <- HTTP 200  body={"symbol":"BTCUSDT","price":"66797.80","time":1774764701558}
+2026-03-29T11:41:46 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:41:47 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:41:47 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:41:47 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:41:48 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:41:48 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:41:48 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:41:49 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:41:49 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:41:50 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:41:50 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:41:50 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:41:51 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:41:51 | INFO     | bot.client | -> GET /fapi/v1/ticker/price  params={'symbol': 'BTCUSDT'}
+2026-03-29T11:41:51 | INFO     | bot.client | <- HTTP 200  body={"symbol":"BTCUSDT","price":"66793.20","time":1774764705522}
+2026-03-29T11:41:51 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:41:52 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:41:52 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:41:52 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:41:53 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:41:53 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:41:54 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:41:54 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:41:54 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:41:55 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:41:55 | INFO     | api | Binance client closed.
+2026-03-29T11:46:56 | INFO     | bot.client | -> GET /fapi/v1/ticker/price  params={'symbol': 'BTCUSDT'}
+2026-03-29T11:46:57 | INFO     | bot.client | <- HTTP 200  body={"symbol":"BTCUSDT","price":"66797.70","time":1774765013666}
+2026-03-29T11:46:57 | INFO     | bot.client | -> GET /fapi/v2/account  params={'timestamp': 1774765017190}
+2026-03-29T11:46:57 | INFO     | bot.client | <- HTTP 401  body={"code":-2015,"msg":"Invalid API-key, IP, or permissions for action"}
+2026-03-29T11:47:22 | INFO     | api | Binance client initialised.
+2026-03-29T11:47:42 | INFO     | bot.client | -> GET /fapi/v1/ticker/price  params={'symbol': 'BTCUSDT'}
+2026-03-29T11:47:42 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:47:42 | INFO     | bot.client | <- HTTP 200  body={"symbol":"BTCUSDT","price":"66797.70","time":1774765060018}
+2026-03-29T11:47:43 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:47:43 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:47:43 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:47:44 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:47:44 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:47:44 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:47:45 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:47:45 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:47:45 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:47:46 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:47:46 | INFO     | bot.client | -> GET /fapi/v1/ticker/price  params={'symbol': 'BTCUSDT'}
+2026-03-29T11:47:46 | INFO     | bot.client | <- HTTP 200  body={"symbol":"BTCUSDT","price":"66797.70","time":1774765060018}
+2026-03-29T11:47:46 | INFO     | bot.client | -> GET /fapi/v1/ticker/price  params={'symbol': 'BTCUSDT'}
+2026-03-29T11:47:46 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:47:46 | INFO     | bot.client | <- HTTP 200  body={"symbol":"BTCUSDT","price":"66797.70","time":1774765060018}
+2026-03-29T11:47:47 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:47:47 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:47:47 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:47:48 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:47:48 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:47:48 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:47:48 | INFO     | bot.client | -> GET /fapi/v1/ticker/price  params={'symbol': 'BTCUSDT'}
+2026-03-29T11:47:49 | INFO     | bot.client | <- HTTP 200  body={"symbol":"BTCUSDT","price":"66797.70","time":1774765065885}
+2026-03-29T11:47:49 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:47:49 | INFO     | bot.client | -> GET /fapi/v1/ticker/price  params={'symbol': 'BTCUSDT'}
+2026-03-29T11:47:49 | INFO     | bot.client | <- HTTP 200  body={"symbol":"BTCUSDT","price":"66797.70","time":1774765065885}
+2026-03-29T11:47:49 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:47:49 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:47:50 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:47:50 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:47:50 | INFO     | api | POST /api/orders  body={'symbol': 'BTCUSDT', 'side': 'BUY', 'order_type': 'MARKET', 'quantity': 1.0, 'price': None, 'stop_price': None, 'time_in_force': 'GTC', 'reduce_only': False}
+2026-03-29T11:47:50 | INFO     | bot.orders | Placing MARKET BUY BTCUSDT  qty=1.0  price=None
+2026-03-29T11:47:50 | INFO     | bot.client | -> POST /fapi/v1/order  params={'symbol': 'BTCUSDT', 'side': 'BUY', 'type': 'MARKET', 'quantity': '1.0', 'timestamp': 1774765070831}
+2026-03-29T11:47:50 | INFO     | bot.client | <- HTTP 401  body={"code":-2015,"msg":"Invalid API-key, IP, or permissions for action"}
+2026-03-29T11:47:51 | ERROR    | api | Binance API error: Binance API Error [-2015]: Invalid API-key, IP, or permissions for action
+2026-03-29T11:47:51 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:47:51 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:47:51 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:47:52 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:47:52 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:47:53 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:47:53 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:47:53 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:47:54 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:47:54 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:47:55 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:47:55 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:47:55 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:47:56 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:47:56 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:47:57 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:47:57 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:47:57 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:47:58 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:47:58 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:47:59 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:47:59 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:47:59 | INFO     | bot.client | -> GET /fapi/v1/ticker/price  params={'symbol': 'BTCUSDT'}
+2026-03-29T11:47:59 | INFO     | api | POST /api/orders  body={'symbol': 'BTCUSDT', 'side': 'BUY', 'order_type': 'MARKET', 'quantity': 1.0, 'price': None, 'stop_price': None, 'time_in_force': 'GTC', 'reduce_only': False}
+2026-03-29T11:47:59 | INFO     | bot.orders | Placing MARKET BUY BTCUSDT  qty=1.0  price=None
+2026-03-29T11:47:59 | INFO     | bot.client | -> POST /fapi/v1/order  params={'symbol': 'BTCUSDT', 'side': 'BUY', 'type': 'MARKET', 'quantity': '1.0', 'timestamp': 1774765079616}
+2026-03-29T11:47:59 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:47:59 | INFO     | bot.client | <- HTTP 401  body={"code":-2015,"msg":"Invalid API-key, IP, or permissions for action"}
+2026-03-29T11:47:59 | INFO     | bot.client | <- HTTP 200  body={"symbol":"BTCUSDT","price":"66797.80","time":1774765075547}
+2026-03-29T11:47:59 | ERROR    | api | Binance API error: Binance API Error [-2015]: Invalid API-key, IP, or permissions for action
+2026-03-29T11:48:00 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:48:00 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:48:00 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:48:01 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:48:01 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:48:02 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:48:02 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:48:02 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:48:03 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:48:03 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:48:04 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:48:04 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:48:04 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:48:05 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:48:05 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:48:06 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:48:06 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:48:06 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:48:07 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:48:07 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:48:08 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:48:08 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:48:08 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:48:09 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:48:09 | INFO     | bot.client | -> GET /fapi/v1/ticker/price  params={'symbol': 'BTCUSDT'}
+2026-03-29T11:48:09 | INFO     | bot.client | <- HTTP 200  body={"symbol":"BTCUSDT","price":"66797.80","time":1774765083790}
+2026-03-29T11:48:09 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:48:10 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:48:10 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:48:10 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:48:11 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:48:11 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:48:12 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:48:12 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:48:12 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:48:13 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:48:13 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:48:14 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:48:14 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:48:14 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:48:15 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:48:15 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:48:16 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:48:16 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:48:16 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:48:17 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:48:17 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:48:18 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:48:18 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:48:18 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:48:19 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:48:19 | INFO     | bot.client | -> GET /fapi/v1/ticker/price  params={'symbol': 'BTCUSDT'}
+2026-03-29T11:48:19 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:48:19 | INFO     | bot.client | <- HTTP 200  body={"symbol":"BTCUSDT","price":"66797.80","time":1774765095701}
+2026-03-29T11:48:20 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:48:20 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:48:20 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:48:21 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:48:21 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:48:21 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:48:22 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:48:22 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:48:23 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:48:23 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:48:23 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:48:24 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:48:24 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:48:25 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:48:25 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:48:25 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:48:26 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:48:26 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:48:27 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:48:27 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:48:27 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:48:28 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:48:28 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:48:29 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:48:29 | INFO     | bot.client | -> GET /fapi/v1/ticker/price  params={'symbol': 'BTCUSDT'}
+2026-03-29T11:48:29 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:48:29 | INFO     | bot.client | <- HTTP 200  body={"symbol":"BTCUSDT","price":"66793.20","time":1774765102915}
+2026-03-29T11:48:29 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:48:30 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:48:30 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:48:30 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:48:31 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:48:31 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:48:31 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:48:32 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:48:32 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:48:33 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:48:33 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:48:33 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:48:34 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:48:34 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:48:35 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:48:35 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:48:35 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:48:36 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:48:36 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:48:37 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:48:37 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:48:37 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:48:38 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:48:38 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:48:39 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:48:39 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:48:39 | INFO     | bot.client | -> GET /fapi/v1/ticker/price  params={'symbol': 'BTCUSDT'}
+2026-03-29T11:48:39 | INFO     | bot.client | <- HTTP 200  body={"symbol":"BTCUSDT","price":"66797.70","time":1774765115384}
+2026-03-29T11:48:39 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:48:40 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:48:40 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:48:41 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:48:41 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:48:41 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:48:42 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:48:42 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:48:43 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:48:43 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:48:43 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:48:44 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:48:44 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:48:45 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:48:45 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:48:45 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:48:46 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:48:46 | INFO     | bot.client | -> GET /fapi/v1/ticker/price  params={'symbol': 'BTCUSDT'}
+2026-03-29T11:48:46 | INFO     | bot.client | <- HTTP 200  body={"symbol":"BTCUSDT","price":"66797.70","time":1774765121960}
+2026-03-29T11:48:46 | INFO     | bot.client | -> GET /fapi/v1/ticker/price  params={'symbol': 'BTCUSDT'}
+2026-03-29T11:48:46 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:48:46 | INFO     | bot.client | <- HTTP 200  body={"symbol":"BTCUSDT","price":"66797.70","time":1774765123935}
+2026-03-29T11:48:47 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:48:47 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:48:47 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:48:48 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:48:48 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:48:48 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:48:49 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:48:49 | INFO     | bot.client | -> GET /fapi/v1/ticker/price  params={'symbol': 'BTCUSDT'}
+2026-03-29T11:48:49 | INFO     | bot.client | <- HTTP 200  body={"symbol":"BTCUSDT","price":"66797.70","time":1774765125936}
+2026-03-29T11:48:49 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:48:49 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:48:59 | INFO     | bot.client | -> GET /fapi/v1/ticker/price  params={'symbol': 'BTCUSDT'}
+2026-03-29T11:48:59 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:48:59 | INFO     | bot.client | <- HTTP 200  body={"symbol":"BTCUSDT","price":"66797.70","time":1774765133841}
+2026-03-29T11:48:59 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:49:00 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:49:00 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:49:00 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:49:01 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:49:01 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:49:02 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:49:02 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:49:02 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:49:03 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:49:03 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:49:04 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:49:04 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:49:04 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:49:05 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:49:05 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:49:06 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:49:06 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:49:06 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:49:07 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:49:07 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:49:08 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:49:08 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:49:08 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:49:09 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:49:09 | INFO     | bot.client | -> GET /fapi/v1/ticker/price  params={'symbol': 'BTCUSDT'}
+2026-03-29T11:49:09 | INFO     | bot.client | <- HTTP 200  body={"symbol":"BTCUSDT","price":"66797.70","time":1774765143937}
+2026-03-29T11:49:09 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:49:10 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:49:10 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:49:10 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:49:11 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:49:11 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:49:12 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:49:12 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:49:12 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:49:13 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:49:13 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:49:14 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:49:14 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:49:14 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:49:15 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:49:15 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:49:16 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:49:16 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:49:16 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:49:17 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:49:17 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:49:18 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:49:18 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:49:18 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:49:19 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:49:19 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:49:20 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:49:20 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:49:20 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:49:21 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:49:21 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:49:22 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:49:22 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:49:22 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:49:23 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:49:23 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:49:24 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:49:24 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:49:24 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:49:25 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:49:25 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:49:26 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:49:26 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:49:26 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:49:27 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:49:27 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:49:28 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:49:28 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:49:28 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:49:29 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:49:29 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:49:30 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:49:30 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:49:30 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:49:31 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:49:31 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:49:32 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:49:32 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:49:32 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:49:33 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:49:33 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:49:33 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:49:34 | INFO     | watchfiles.main | 2 changes detected
+2026-03-29T11:49:34 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:49:35 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:49:35 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:49:35 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:49:36 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:49:36 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:49:37 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:49:37 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:49:37 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:49:38 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:49:38 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:49:39 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:49:39 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:49:39 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:49:40 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:49:40 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:49:41 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:49:41 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:49:41 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:49:42 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:49:42 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:49:43 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:49:43 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:49:43 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:49:44 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:49:44 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:49:45 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:49:45 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:49:45 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:49:46 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:49:46 | INFO     | bot.client | -> GET /fapi/v1/ticker/price  params={'symbol': 'BTCUSDT'}
+2026-03-29T11:49:46 | INFO     | bot.client | <- HTTP 200  body={"symbol":"BTCUSDT","price":"66797.80","time":1774765183866}
+2026-03-29T11:49:46 | INFO     | bot.client | -> GET /fapi/v1/ticker/price  params={'symbol': 'BTCUSDT'}
+2026-03-29T11:49:46 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:49:46 | INFO     | bot.client | <- HTTP 200  body={"symbol":"BTCUSDT","price":"66797.80","time":1774765179861}
+2026-03-29T11:49:46 | INFO     | bot.client | -> GET /fapi/v1/ticker/price  params={'symbol': 'BTCUSDT'}
+2026-03-29T11:49:46 | INFO     | bot.client | <- HTTP 200  body={"symbol":"BTCUSDT","price":"66797.80","time":1774765183866}
+2026-03-29T11:49:47 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:49:47 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:49:47 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:49:48 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:49:48 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:49:48 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:49:49 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:49:49 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:49:50 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:49:50 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:49:50 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:49:51 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:49:51 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:49:52 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:49:52 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:49:52 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:49:53 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:49:53 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:49:54 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:49:54 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:49:54 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:49:55 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:49:55 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:49:56 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:49:56 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:49:56 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:49:57 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:49:57 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:49:58 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:49:58 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:49:58 | INFO     | watchfiles.main | 2 changes detected
+2026-03-29T11:49:59 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:49:59 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:50:00 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:50:00 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:50:00 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:50:01 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:50:01 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:50:02 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:50:02 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:50:02 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:50:03 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:50:03 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:50:04 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:50:04 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:50:04 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:50:05 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:50:05 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:50:06 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:50:06 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:50:06 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:50:07 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:50:07 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:50:08 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:50:08 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:50:09 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:50:09 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:50:09 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:50:10 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:50:10 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:50:10 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:50:11 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:50:11 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:50:12 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:50:12 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:50:13 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:50:13 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:50:13 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:50:14 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:50:14 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:50:15 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:50:15 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:50:15 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:50:16 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:50:16 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:50:17 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:50:17 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:50:17 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:50:18 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:50:18 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:50:18 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:50:19 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:50:19 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:50:19 | INFO     | watchfiles.main | 2 changes detected
+2026-03-29T11:50:20 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:50:20 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:50:21 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:50:21 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:50:21 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:50:22 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:50:22 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:50:23 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:50:23 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:50:23 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:50:24 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:50:24 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:50:25 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:50:25 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:50:25 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:50:26 | INFO     | api | Binance client closed.
+2026-03-29T11:50:31 | INFO     | api | Binance client initialised.
+2026-03-29T11:50:33 | INFO     | bot.client | -> GET /fapi/v1/ticker/price  params={'symbol': 'BTCUSDT'}
+2026-03-29T11:50:33 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:50:33 | INFO     | bot.client | <- HTTP 200  body={"symbol":"BTCUSDT","price":"66793.30","time":1774765229700}
+2026-03-29T11:50:34 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:50:34 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:50:34 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:50:35 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:50:35 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:50:35 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:50:36 | INFO     | api | POST /api/orders  body={'symbol': 'BTCUSDT', 'side': 'BUY', 'order_type': 'MARKET', 'quantity': 1.0, 'price': None, 'stop_price': None, 'time_in_force': 'GTC', 'reduce_only': False}
+2026-03-29T11:50:36 | INFO     | bot.orders | Placing MARKET BUY BTCUSDT  qty=1.0  price=None
+2026-03-29T11:50:36 | INFO     | bot.client | -> POST /fapi/v1/order  params={'symbol': 'BTCUSDT', 'side': 'BUY', 'type': 'MARKET', 'quantity': '1.0', 'timestamp': 1774765236127}
+2026-03-29T11:50:36 | INFO     | bot.client | <- HTTP 401  body={"code":-2015,"msg":"Invalid API-key, IP, or permissions for action"}
+2026-03-29T11:50:36 | ERROR    | api | Binance API error: Binance API Error [-2015]: Invalid API-key, IP, or permissions for action
+2026-03-29T11:50:36 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:50:36 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:50:37 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:50:37 | INFO     | api | POST /api/orders  body={'symbol': 'BTCUSDT', 'side': 'BUY', 'order_type': 'MARKET', 'quantity': 1.0, 'price': None, 'stop_price': None, 'time_in_force': 'GTC', 'reduce_only': False}
+2026-03-29T11:50:37 | INFO     | bot.orders | Placing MARKET BUY BTCUSDT  qty=1.0  price=None
+2026-03-29T11:50:37 | INFO     | bot.client | -> POST /fapi/v1/order  params={'symbol': 'BTCUSDT', 'side': 'BUY', 'type': 'MARKET', 'quantity': '1.0', 'timestamp': 1774765237364}
+2026-03-29T11:50:37 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:50:37 | INFO     | bot.client | <- HTTP 401  body={"code":-2015,"msg":"Invalid API-key, IP, or permissions for action"}
+2026-03-29T11:50:37 | ERROR    | api | Binance API error: Binance API Error [-2015]: Invalid API-key, IP, or permissions for action
+2026-03-29T11:50:37 | INFO     | api | POST /api/orders  body={'symbol': 'BTCUSDT', 'side': 'BUY', 'order_type': 'MARKET', 'quantity': 1.0, 'price': None, 'stop_price': None, 'time_in_force': 'GTC', 'reduce_only': False}
+2026-03-29T11:50:37 | INFO     | bot.orders | Placing MARKET BUY BTCUSDT  qty=1.0  price=None
+2026-03-29T11:50:37 | INFO     | bot.client | -> POST /fapi/v1/order  params={'symbol': 'BTCUSDT', 'side': 'BUY', 'type': 'MARKET', 'quantity': '1.0', 'timestamp': 1774765237666}
+2026-03-29T11:50:37 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:50:38 | INFO     | bot.client | <- HTTP 401  body={"code":-2015,"msg":"Invalid API-key, IP, or permissions for action"}
+2026-03-29T11:50:38 | ERROR    | api | Binance API error: Binance API Error [-2015]: Invalid API-key, IP, or permissions for action
+2026-03-29T11:50:38 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:50:38 | INFO     | api | POST /api/orders  body={'symbol': 'BTCUSDT', 'side': 'BUY', 'order_type': 'MARKET', 'quantity': 1.0, 'price': None, 'stop_price': None, 'time_in_force': 'GTC', 'reduce_only': False}
+2026-03-29T11:50:38 | INFO     | bot.orders | Placing MARKET BUY BTCUSDT  qty=1.0  price=None
+2026-03-29T11:50:38 | INFO     | bot.client | -> POST /fapi/v1/order  params={'symbol': 'BTCUSDT', 'side': 'BUY', 'type': 'MARKET', 'quantity': '1.0', 'timestamp': 1774765238249}
+2026-03-29T11:50:38 | INFO     | bot.client | <- HTTP 401  body={"code":-2015,"msg":"Invalid API-key, IP, or permissions for action"}
+2026-03-29T11:50:38 | ERROR    | api | Binance API error: Binance API Error [-2015]: Invalid API-key, IP, or permissions for action
+2026-03-29T11:50:38 | INFO     | api | POST /api/orders  body={'symbol': 'BTCUSDT', 'side': 'BUY', 'order_type': 'MARKET', 'quantity': 1.0, 'price': None, 'stop_price': None, 'time_in_force': 'GTC', 'reduce_only': False}
+2026-03-29T11:50:38 | INFO     | bot.orders | Placing MARKET BUY BTCUSDT  qty=1.0  price=None
+2026-03-29T11:50:38 | INFO     | bot.client | -> POST /fapi/v1/order  params={'symbol': 'BTCUSDT', 'side': 'BUY', 'type': 'MARKET', 'quantity': '1.0', 'timestamp': 1774765238470}
+2026-03-29T11:50:38 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:50:38 | INFO     | bot.client | <- HTTP 401  body={"code":-2015,"msg":"Invalid API-key, IP, or permissions for action"}
+2026-03-29T11:50:38 | ERROR    | api | Binance API error: Binance API Error [-2015]: Invalid API-key, IP, or permissions for action
+2026-03-29T11:50:38 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:50:39 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:50:39 | INFO     | bot.client | -> GET /fapi/v1/ticker/price  params={'symbol': 'BTCUSDT'}
+2026-03-29T11:50:39 | INFO     | bot.client | <- HTTP 200  body={"symbol":"BTCUSDT","price":"66793.10","time":1774765236051}
+2026-03-29T11:50:39 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:50:39 | INFO     | bot.client | -> GET /fapi/v1/ticker/price  params={'symbol': 'BTCUSDT'}
+2026-03-29T11:50:39 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:50:40 | INFO     | bot.client | <- HTTP 200  body={"symbol":"BTCUSDT","price":"66793.10","time":1774765234074}
+2026-03-29T11:50:40 | INFO     | bot.client | -> GET /fapi/v1/ticker/price  params={'symbol': 'BTCUSDT'}
+2026-03-29T11:50:40 | INFO     | bot.client | <- HTTP 200  body={"symbol":"BTCUSDT","price":"66793.10","time":1774765236051}
+2026-03-29T11:50:40 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:50:40 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:50:40 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:50:41 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:50:41 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:50:42 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:50:42 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:50:42 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:50:43 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:50:43 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:50:43 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:50:44 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:50:44 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:50:45 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:50:45 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:50:45 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:50:46 | INFO     | api | POST /api/orders  body={'symbol': 'BTCUSDT', 'side': 'BUY', 'order_type': 'MARKET', 'quantity': 1.0, 'price': None, 'stop_price': None, 'time_in_force': 'GTC', 'reduce_only': False}
+2026-03-29T11:50:46 | INFO     | bot.orders | Placing MARKET BUY BTCUSDT  qty=1.0  price=None
+2026-03-29T11:50:46 | INFO     | bot.client | -> POST /fapi/v1/order  params={'symbol': 'BTCUSDT', 'side': 'BUY', 'type': 'MARKET', 'quantity': '1.0', 'timestamp': 1774765246099}
+2026-03-29T11:50:46 | INFO     | bot.client | <- HTTP 401  body={"code":-2015,"msg":"Invalid API-key, IP, or permissions for action"}
+2026-03-29T11:50:46 | ERROR    | api | Binance API error: Binance API Error [-2015]: Invalid API-key, IP, or permissions for action
+2026-03-29T11:50:46 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:50:46 | INFO     | bot.client | -> GET /fapi/v1/ticker/price  params={'symbol': 'BTCUSDT'}
+2026-03-29T11:50:46 | INFO     | bot.client | <- HTTP 200  body={"symbol":"BTCUSDT","price":"66794.80","time":1774765244075}
+2026-03-29T11:50:46 | INFO     | bot.client | -> GET /fapi/v1/ticker/price  params={'symbol': 'BTCUSDT'}
+2026-03-29T11:50:46 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:50:46 | INFO     | bot.client | <- HTTP 200  body={"symbol":"BTCUSDT","price":"66794.80","time":1774765241478}
+2026-03-29T11:50:47 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:50:47 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:50:47 | INFO     | api | POST /api/orders  body={'symbol': 'BTCUSDT', 'side': 'BUY', 'order_type': 'MARKET', 'quantity': 1.0, 'price': None, 'stop_price': None, 'time_in_force': 'GTC', 'reduce_only': False}
+2026-03-29T11:50:47 | INFO     | bot.orders | Placing MARKET BUY BTCUSDT  qty=1.0  price=None
+2026-03-29T11:50:47 | INFO     | bot.client | -> POST /fapi/v1/order  params={'symbol': 'BTCUSDT', 'side': 'BUY', 'type': 'MARKET', 'quantity': '1.0', 'timestamp': 1774765247539}
+2026-03-29T11:50:47 | INFO     | bot.client | <- HTTP 401  body={"code":-2015,"msg":"Invalid API-key, IP, or permissions for action"}
+2026-03-29T11:50:47 | ERROR    | api | Binance API error: Binance API Error [-2015]: Invalid API-key, IP, or permissions for action
+2026-03-29T11:50:47 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:50:48 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:50:48 | INFO     | api | POST /api/orders  body={'symbol': 'BTCUSDT', 'side': 'BUY', 'order_type': 'MARKET', 'quantity': 1.0, 'price': None, 'stop_price': None, 'time_in_force': 'GTC', 'reduce_only': False}
+2026-03-29T11:50:48 | INFO     | bot.orders | Placing MARKET BUY BTCUSDT  qty=1.0  price=None
+2026-03-29T11:50:48 | INFO     | bot.client | -> POST /fapi/v1/order  params={'symbol': 'BTCUSDT', 'side': 'BUY', 'type': 'MARKET', 'quantity': '1.0', 'timestamp': 1774765248531}
+2026-03-29T11:50:48 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:50:48 | INFO     | bot.client | <- HTTP 401  body={"code":-2015,"msg":"Invalid API-key, IP, or permissions for action"}
+2026-03-29T11:50:48 | ERROR    | api | Binance API error: Binance API Error [-2015]: Invalid API-key, IP, or permissions for action
+2026-03-29T11:50:48 | INFO     | api | POST /api/orders  body={'symbol': 'BTCUSDT', 'side': 'BUY', 'order_type': 'MARKET', 'quantity': 1.0, 'price': None, 'stop_price': None, 'time_in_force': 'GTC', 'reduce_only': False}
+2026-03-29T11:50:48 | INFO     | bot.orders | Placing MARKET BUY BTCUSDT  qty=1.0  price=None
+2026-03-29T11:50:48 | INFO     | bot.client | -> POST /fapi/v1/order  params={'symbol': 'BTCUSDT', 'side': 'BUY', 'type': 'MARKET', 'quantity': '1.0', 'timestamp': 1774765248876}
+2026-03-29T11:50:48 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:50:49 | INFO     | bot.client | <- HTTP 401  body={"code":-2015,"msg":"Invalid API-key, IP, or permissions for action"}
+2026-03-29T11:50:49 | ERROR    | api | Binance API error: Binance API Error [-2015]: Invalid API-key, IP, or permissions for action
+2026-03-29T11:50:49 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:50:49 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:50:49 | INFO     | bot.client | -> GET /fapi/v1/openOrders  params={'timestamp': 1774765249816}
+2026-03-29T11:50:49 | INFO     | bot.client | <- HTTP 401  body={"code":-2015,"msg":"Invalid API-key, IP, or permissions for action"}
+2026-03-29T11:50:49 | INFO     | bot.client | -> GET /fapi/v1/openOrders  params={'timestamp': 1774765249981}
+2026-03-29T11:50:50 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:50:50 | INFO     | bot.client | <- HTTP 401  body={"code":-2015,"msg":"Invalid API-key, IP, or permissions for action"}
+2026-03-29T11:50:50 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:50:50 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:50:50 | INFO     | bot.client | -> GET /fapi/v2/account  params={'timestamp': 1774765250799}
+2026-03-29T11:50:50 | INFO     | bot.client | <- HTTP 401  body={"code":-2015,"msg":"Invalid API-key, IP, or permissions for action"}
+2026-03-29T11:50:50 | INFO     | bot.client | -> GET /fapi/v2/account  params={'timestamp': 1774765250963}
+2026-03-29T11:50:51 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:50:51 | INFO     | bot.client | <- HTTP 401  body={"code":-2015,"msg":"Invalid API-key, IP, or permissions for action"}
+2026-03-29T11:50:51 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:50:51 | INFO     | bot.client | -> GET /fapi/v1/ticker/price  params={'symbol': 'BTCUSDT'}
+2026-03-29T11:50:51 | INFO     | bot.client | <- HTTP 200  body={"symbol":"BTCUSDT","price":"66794.80","time":1774765244304}
+2026-03-29T11:50:51 | INFO     | bot.client | -> GET /fapi/v1/ticker/price  params={'symbol': 'BTCUSDT'}
+2026-03-29T11:50:51 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:50:51 | INFO     | bot.client | <- HTTP 200  body={"symbol":"BTCUSDT","price":"66794.80","time":1774765244304}
+2026-03-29T11:50:52 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:50:52 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:50:52 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:50:53 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:50:53 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:50:53 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:50:54 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:50:54 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:50:55 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:50:55 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:50:55 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:50:56 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:50:56 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:50:57 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:50:57 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:50:57 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:50:58 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:50:58 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:50:59 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:50:59 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:50:59 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:51:00 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:51:00 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:51:01 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:51:01 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:51:01 | INFO     | bot.client | -> GET /fapi/v1/ticker/price  params={'symbol': 'BTCUSDT'}
+2026-03-29T11:51:01 | INFO     | bot.client | <- HTTP 200  body={"symbol":"BTCUSDT","price":"66793.10","time":1774765259334}
+2026-03-29T11:51:01 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:51:02 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:51:02 | INFO     | api | POST /api/orders  body={'symbol': 'BTCUSDT', 'side': 'BUY', 'order_type': 'MARKET', 'quantity': 0.0343, 'price': None, 'stop_price': None, 'time_in_force': 'GTC', 'reduce_only': False}
+2026-03-29T11:51:02 | INFO     | bot.orders | Placing MARKET BUY BTCUSDT  qty=0.0343  price=None
+2026-03-29T11:51:02 | INFO     | bot.client | -> POST /fapi/v1/order  params={'symbol': 'BTCUSDT', 'side': 'BUY', 'type': 'MARKET', 'quantity': '0.0343', 'timestamp': 1774765262559}
+2026-03-29T11:51:02 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:51:02 | INFO     | bot.client | <- HTTP 401  body={"code":-2015,"msg":"Invalid API-key, IP, or permissions for action"}
+2026-03-29T11:51:02 | ERROR    | api | Binance API error: Binance API Error [-2015]: Invalid API-key, IP, or permissions for action
+2026-03-29T11:51:02 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:51:03 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:51:03 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:51:03 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:51:04 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:51:04 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:51:05 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:51:05 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:51:05 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:51:06 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:51:06 | INFO     | api | POST /api/orders  body={'symbol': 'BTCUSDT', 'side': 'BUY', 'order_type': 'MARKET', 'quantity': 0.0343, 'price': None, 'stop_price': None, 'time_in_force': 'GTC', 'reduce_only': False}
+2026-03-29T11:51:06 | INFO     | bot.orders | Placing MARKET BUY BTCUSDT  qty=0.0343  price=None
+2026-03-29T11:51:06 | INFO     | bot.client | -> POST /fapi/v1/order  params={'symbol': 'BTCUSDT', 'side': 'BUY', 'type': 'MARKET', 'quantity': '0.0343', 'timestamp': 1774765266719}
+2026-03-29T11:51:06 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:51:06 | INFO     | bot.client | <- HTTP 401  body={"code":-2015,"msg":"Invalid API-key, IP, or permissions for action"}
+2026-03-29T11:51:06 | ERROR    | api | Binance API error: Binance API Error [-2015]: Invalid API-key, IP, or permissions for action
+2026-03-29T11:51:07 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:51:07 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:51:07 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:51:08 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:51:08 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:51:08 | INFO     | api | POST /api/orders  body={'symbol': 'BTCUSDT', 'side': 'BUY', 'order_type': 'MARKET', 'quantity': 0.0343, 'price': None, 'stop_price': None, 'time_in_force': 'GTC', 'reduce_only': False}
+2026-03-29T11:51:08 | INFO     | bot.orders | Placing MARKET BUY BTCUSDT  qty=0.0343  price=None
+2026-03-29T11:51:08 | INFO     | bot.client | -> POST /fapi/v1/order  params={'symbol': 'BTCUSDT', 'side': 'BUY', 'type': 'MARKET', 'quantity': '0.0343', 'timestamp': 1774765268909}
+2026-03-29T11:51:08 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:51:09 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:51:09 | INFO     | bot.client | <- HTTP 401  body={"code":-2015,"msg":"Invalid API-key, IP, or permissions for action"}
+2026-03-29T11:51:09 | ERROR    | api | Binance API error: Binance API Error [-2015]: Invalid API-key, IP, or permissions for action
+2026-03-29T11:51:09 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:51:10 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:51:10 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:51:10 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:51:11 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:51:11 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:51:11 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:51:12 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:51:12 | INFO     | bot.client | -> GET /fapi/v1/ticker/price  params={'symbol': 'BTCUSDT'}
+2026-03-29T11:51:12 | INFO     | bot.client | <- HTTP 200  body={"symbol":"BTCUSDT","price":"66791.50","time":1774765269997}
+2026-03-29T11:51:12 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:51:12 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:51:13 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:51:13 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:51:14 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:51:14 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:51:14 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:51:15 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:51:15 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:51:15 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:51:16 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:51:16 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:51:17 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:51:17 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:51:17 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:51:18 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:51:18 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:51:19 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:51:19 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:51:19 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:51:20 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:51:20 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:51:21 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:51:21 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:51:21 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:51:22 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:51:22 | INFO     | bot.client | -> GET /fapi/v1/ticker/price  params={'symbol': 'BTCUSDT'}
+2026-03-29T11:51:22 | INFO     | bot.client | <- HTTP 200  body={"symbol":"BTCUSDT","price":"66791.40","time":1774765275388}
+2026-03-29T11:51:22 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:51:23 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:51:23 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:51:23 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:51:24 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:51:24 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:51:24 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:51:25 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:51:25 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:51:26 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:51:26 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:51:26 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:51:27 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:51:27 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:51:28 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:51:28 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:51:28 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:51:29 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:51:29 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:51:30 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:51:30 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:51:30 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:51:31 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:51:31 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:51:32 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:51:32 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:51:32 | INFO     | bot.client | -> GET /fapi/v1/ticker/price  params={'symbol': 'BTCUSDT'}
+2026-03-29T11:51:32 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:51:32 | INFO     | bot.client | <- HTTP 200  body={"symbol":"BTCUSDT","price":"66791.40","time":1774765289956}
+2026-03-29T11:51:33 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:51:33 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:51:33 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:51:34 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:51:34 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:51:35 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:51:35 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:51:35 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:51:36 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:51:36 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:51:36 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:51:37 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:51:37 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:51:38 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:51:38 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:51:38 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:51:39 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:51:39 | INFO     | watchfiles.main | 1 change detected
+2026-03-29T11:51:40 | INFO     | api | Binance client closed.
+2026-03-29T11:53:28 | INFO     | bot.client | -> GET /fapi/v1/ticker/price  params={'symbol': 'BTCUSDT'}
+2026-03-29T11:53:29 | INFO     | bot.client | <- HTTP 200  body={"symbol":"BTCUSDT","price":"66777.70","time":1774765406003}
+2026-03-29T11:53:29 | INFO     | bot.client | -> GET /fapi/v2/account  params={'timestamp': 1774765409154}
+2026-03-29T11:53:29 | INFO     | bot.client | <- HTTP 401  body={"code":-2015,"msg":"Invalid API-key, IP, or permissions for action"}
